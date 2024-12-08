@@ -1,0 +1,12 @@
+.btn-primary{
+    background-color: blueviolet;
+}
+
+.navbar-brand{
+    color: aliceblue;
+}
+
+.navbar-brand:hover{
+    color: aliceblue;
+
+}

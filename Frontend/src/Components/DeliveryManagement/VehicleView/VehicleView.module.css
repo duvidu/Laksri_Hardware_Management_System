@@ -1,0 +1,13 @@
+/* VehicleView.module.css */
+
+.body {
+  background-color: #c7e8ec; /* Set your desired background color */
+  padding: 20px; /* Add padding for spacing */
+  height: auto;
+}
+
+.paper {
+  margin-top: 20px; /* Add margin at the top */
+  padding: 20px; /* Add padding */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Add box shadow */
+}

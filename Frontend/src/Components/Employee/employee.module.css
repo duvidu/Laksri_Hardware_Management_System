@@ -1,0 +1,321 @@
+
+
+.employeeDetails{
+  background: #fff;
+  position: relative;
+  border-radius: 4px;
+  padding: 5px;
+  margin:5px;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.05);
+  height: 50px;
+  color: black;
+ 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 30px;
+    padding: 0;
+  }
+  
+li {
+    display: inline-block; 
+    width: 500px; 
+    margin: 5px 0px 10px 20px; 
+    padding: 5px; 
+    
+    
+  }
+ 
+  .empList{
+
+    position: relative;
+   
+    padding: 10px;
+    margin:-20px;
+  }
+
+ 
+.fullbody{
+  color: black;
+  position: relative;
+}
+
+  .titles{
+
+    position:relative;
+    padding: 15px 5px;
+    border-radius: 10px;
+
+
+  }
+.addEmp{
+  position:relative;
+  left: 1400px;
+  top: 35px;
+  
+}
+.addBtn{
+  position:relative;
+  left: 1300px;
+  top: 65px;
+ 
+}
+.notify{
+  position:relative;
+  left:1450px;
+  bottom: 30px;
+}
+.empDet{
+  position:relative;
+  left:620px;
+  top:20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.editBtn{
+  position:relative;
+  height: 40px;
+  width: 100px;
+  left: 930px;
+  bottom: 60px;
+  font-size: 15px;
+  background-color: aqua;
+}
+.dltBtn{
+  position:relative;
+  left:1300px;
+  bottom: 133px;
+}
+.searches{
+  position: relative;
+  width: 1200px;
+  left: 90px;
+ 
+}
+.addNew{
+  position:relative;
+  left:1350px;
+  top: 30px;
+}
+.fullbody{
+  background-color: rgb(123, 179, 238);
+}
+.genarate{
+  position:absolute;
+  height: 40px;
+  width: 160px;
+  left: 1080px;
+  top: 3px;
+  bottom: 60px;
+  font-size: 12px;  
+  background-color: aqua;
+
+}
+.rpt{
+  position:relative;
+  right:120px;
+
+}
+
+.sear{
+
+  position:relative;
+  left:55px;
+  top: 105px;
+}
+.AddEmpForm{
+
+  position: absolute;
+	top: 20px;
+	left: 500px;
+	padding: 60px 32px;
+	height: 700px;
+  width: 700px;
+	backdrop-filter: blur(60px);
+	border-radius: 20px;
+	box-shadow: -7px 5px 28px 5px rgb(64, 0, 64);
+  color: black;
+
+}
+.AddImage{
+  background: url('./bg97.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.UpdateEmpForm{
+
+  position: absolute;
+	top: 20px;
+	left: 790px;
+	padding: 60px 32px;
+	height: 700px;
+  width: 700px;
+	backdrop-filter: blur(60px);
+	border-radius: 20px;
+	box-shadow: -7px 5px 28px 5px rgb(64, 0, 64);
+  color: black;
+
+}
+.UpdateEmpFormbody{
+  background: url('./bg97.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+  
+}
+.adBtn{
+  position:relative;
+  top: 10px;
+  background-color: aqua;
+  color: black;
+
+}
+.menuIC{
+  position:relative;
+ right: 730px;
+}
+.qrr{
+  position:relative;
+  width: 70px;
+  height: 40px;
+  left: 938px;
+  top: -60px;
+  font-size: 15px;
+  background-color: aqua;
+  color: black;
+
+}
+.empimg {
+  background: url('./Ss.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.empBody {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.AddNewLeaves,
+.AddNewAttendances {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  width: 600px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.AddNewLeaves:hover,
+.AddNewAttendances:hover {
+  background-color: #45a049;
+}
+
+.addReq,
+.addAttend {
+  color: white;
+  text-decoration: none;
+}
+
+.addReq:hover,
+.addAttend:hover {
+  text-decoration: underline;
+}
+  .empTitle{
+
+    font-size: 50px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 500px;
+  }
+  .scan{
+    font-size: 130px;
+    position: relative;
+    left: 300px;
+    top: 110px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+
+
+  }
+  .here{
+    font-size: 130px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .toGet{
+    font-size: 60px;
+    position: relative;
+    left: 300px;
+    top:-10px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .info{
+    font-size: 60px;
+    position: relative;
+    left: 300px;
+    top:-30px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .qrCodepic{
+    position: relative;
+    left: 900px;
+    bottom: 460px;
+  }
+  .employeeQRCode{
+
+    background: url('./qrBG3.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .emplId{
+    position: relative;
+    right: 20px;
+    
+  }
+  .emplName{
+
+    position: relative;
+    right: 100px;
+  }
+.emplMail{
+  position: relative;
+  right: 180px;
+}
+.emplJob{
+
+  position: relative;
+  right: 210px;
+}
+.emplType{
+  position: relative;
+  right: 270px;
+}
+
+.employid{
+  position: relative;
+  top: 10px;
+}

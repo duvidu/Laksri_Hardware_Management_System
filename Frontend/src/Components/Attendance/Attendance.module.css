@@ -1,0 +1,77 @@
+.AttImg{
+
+    background: url('./bg97.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.AddAttForm{
+
+	position: absolute;
+	top: 130px;
+	left: 400px;
+	padding: 60px 32px;
+	height: 400px;
+    width: 700px;
+	backdrop-filter: blur(60px);
+	border-radius: 20px;
+	box-shadow: -7px 5px 28px 5px rgb(154, 160, 243);
+  color: black;
+}
+.atBtn{
+
+  position:relative;
+  top: 10px;
+  background-color: aqua;
+  color: black;
+  
+
+}
+.adddaily{
+
+	font-family: 'Times New Roman', Times, serif;
+	position: relative;
+	left: 150px;
+	top: -15px;
+}
+.empId{
+	position:relative;
+  top: -10px;
+}
+.timeout{
+	position:relative;
+    left: 100px;
+	width: 270px;
+}
+.attList{
+
+	color: black;
+	position: relative;
+	top: 50px;
+	color: black;
+}
+.attendanceDetails{
+	position: relative;
+    background: #fff;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 5px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.05);
+    height: 60px;
+	color: black;
+	border: 1px solid black; 
+}
+.dailAtt{
+	position:relative;
+    left: 600px;
+	top: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+}
+
+.Atthome{
+padding: 20px;
+    background-color:rgb(123, 179, 238);
+}

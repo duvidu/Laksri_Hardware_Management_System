@@ -1,0 +1,13 @@
+.searchBar{
+    margin-bottom: 10px;
+    border: 2px;
+}
+
+.search-container {
+    display: flex; 
+  }
+  
+  .button-container span {
+    margin-right: 10px; 
+  }
+

@@ -1,0 +1,62 @@
+/* LowStockNotifications.module.css */
+.lowStockNotificationsContainer {
+    padding: 20px;
+    width: 90%;
+    margin-top: 64px;
+}
+
+.notificationItem {
+    display: flex;
+    align-items: center;
+    
+}
+
+.notificationContent {
+    margin-left: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #ddd; 
+    color: #333;
+    
+}
+
+.notificationContent h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.notificationContent p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.5; 
+}
+
+.notificationContent:hover {
+    background-color: #f0f0f0; 
+  }
+
+.notificationButtons {
+    margin-top: 0px;
+    justify-content: start;
+}
+
+.notificationButtons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    height: 45;
+    margin-top: 0;
+}
+
+.notificationButtons button:hover {
+    background-color: #0056b3;
+}
+
+.notificationItem input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto;
+}

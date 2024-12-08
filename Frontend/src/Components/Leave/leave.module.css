@@ -1,0 +1,176 @@
+ul {
+  list-style-type: none;
+  margin: 0px 0px 0px 30px;
+  padding: 0;
+}
+
+li {
+  display: inline-block; 
+  width: 240px; 
+  margin: 5px 0px 10px 20px; 
+  padding: 5px; 
+  
+}
+.leaveDetails{
+  position: relative;
+  background: #fff;
+  border-radius: 10px;
+  margin: 5px auto;
+  padding: 5px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgb(0,0,0,0.05);
+  height: 60px;
+
+}
+
+.titles{
+
+  position:relative;
+  padding: 15px 5px;
+  border-radius: 10px;
+
+
+}
+.LeaveFrm{
+
+position: absolute;
+top: 70px;
+left: 70px;
+padding: 60px 32px;
+height: 600px;
+width: 700px;
+backdrop-filter: blur(60px);
+border-radius: 20px;
+box-shadow: -7px 5px 28px 5px rgb(64, 0, 64);
+color: black;
+
+}
+.leaveImg{
+  background: url('./bg97.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+.sendReq{
+position:relative;
+top: 20px;
+background-color: aqua;
+color: black;
+}
+.home{
+  background-color:rgb(123, 179, 238);
+  color: black;
+}
+.levBtn{
+  background-color: aqua;
+  color: black;
+  position:relative;
+  bottom: 58px;
+  font-size: 15px;
+  left: 850px;
+  height:40px;
+  width: 100px;
+  
+
+}
+/* .levBtnA{
+
+  background-color: aqua;
+  color: black;
+  position:relative;
+  bottom: 69px;
+  font-size: 15px;
+  left: 870px;
+  height:40px;
+  width: 100px;
+} */
+.LevDet{
+  position:relative;
+left:600px;
+top:2px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.levList{
+
+  position: relative;
+ 
+  padding: 10px;
+  margin:-20px;
+}
+.levempId{
+
+  position: relative;
+  right: 20px;
+}
+.leveemail{
+  position: relative;
+  right: 130px;
+}
+.levType{
+  position: relative;
+  right: 150px;
+}
+.levSdate{
+  position: relative;
+  right: 290px;
+}
+.leveDate{
+  position: relative;
+  right: 320px;
+}
+.levRsn{
+position: relative;
+left: 975px;
+bottom: 60px;
+}
+
+
+.homee {
+  padding: 20px;
+  background-color:rgb(123, 179, 238);
+  font-family: Arial, sans-serif;
+ 
+}
+
+.titleAcc {
+   position:relative;
+left:600px;
+top:2px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: black;
+}
+
+.acceptedLeaveRequests {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between leave requests */
+}
+
+.leaveCard {
+  background-color: #fff;
+  border: 1px solid black; /* Border around the box */
+  padding: 15px; /* Padding inside the box */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.leaveCard strong {
+  color: #555; /* Change color for the labels */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+  .acceptedLeaveRequests {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+

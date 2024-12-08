@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+
+
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+
+
+.cusHomeView{
+  margin: 5px 90px;
+}
+
+.homeProductDetails{
+  text-decoration: none;
+  height: 350px;
+  width: 200px;
+  border: 1px black solid;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.rowView {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.singleProduct{
+  text-decoration: none; 
+  color: inherit;
+}
+.selectedOrderProduct {
+    margin: 20px;
+  }
+  
+  .OrderdetailsBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 600px;
+    width: 1450px;
+  }
+  
+  .productImage {
+    flex: 1;
+    margin-right: 10px;
+    width: 370px;
+    height: 370px;
+    border-radius: 12px;
+   
+  } 
+  
+  
+  
+  
+  .imagePlaceholder {
+    width: 100px; 
+    height: 100px;
+    background-color: #f0f0f0; 
+  }
+  
+  .productOrderDetails {
+    flex: 2;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    margin-left: 25px;
+  }
+  
+  
+  
+  .productName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000; 
+  }
+  
+  .unitPrice, .availableAmount {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000; 
+  }
+  
+  button {
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .itemDetails {
+    display: flex;
+    align-items: center;
+  }
+  
+  .productCartImage img {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
+  }
+
+
+  .cart table {
+  border-collapse: collapse;
+  margin-top: 25px;
+  margin-left: 200px; 
+  
+}
+
+.cart table th,
+.cart table td {
+  padding: 10px; 
+  border: none; 
+}
+
+.cart table th {
+  text-align: left; 
+}
+
+.cart table img {
+  max-width: 100px; 
+  height: auto; 
+}
+
+.checkout-section {
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  margin-top: 1px;  
+  
+}
+
+.checkout-section > div {
+  margin-left: 20px; 
+}
+
+.update-cart-btn {
+  font-size: 24px;
+  padding: 8px 16px;
+  width: 200px;
+  justify-content: center;
+}
+
+.cartAll{
+  display: flex;
+  color: #000;
+}
+
+.Billing{
+  color: #000;
+  width: 1000px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.Payment{
+  color: #000;
+  width: 1000px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.Order{
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart-table-head {
+  border-collapse: collapse; 
+  width: 700px; 
+  text-align: center; 
+
+}
+
+.cart-table-head th {
+  padding: 8px;
+ 
+  border: none;
+}
+
+.Product-h{
+  width: 400px;
+  text-align: center; 
+}
+.Quantity-h{
+  width: 100px;
+  text-align: center; 
+}
+.Price-h {
+  width: 200px; 
+  text-align: center; 
+}
+
+
+.cart-table-body td {
+  padding: 8px;
+  text-align: center; 
+  border: none;
+  
+}
+
+
+.Rating{
+  color: black;
+  text-align: center;
+}
+
+.ratingFont{
+  color: #000;
+}
+
+.check{
+  width: 100px;
+  height: 100px;
+}
+
+
+.thank{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.success{
+  color: blue;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 200px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.Product-b{
+  width: 400px;
+  text-align: center;
+ 
+}
+.Quantity-b{
+  width: 100px;
+  text-align: center;
+}
+.Price-b {
+  width: 200px; 
+  text-align: center;
+}
+
+.bold-hr {
+  border-top: 3px solid black;
+}
+
+.OrderH2{
+  color: #000;
+}
+
+.totalPrice{
+  font-size: 22px;
+  text-align: center;
+}
+
+.Total{
+  font-size: 20px;
+}
+
+@media print {
+  .generate-report-btn {
+    display: none;
+  }
+}
+
+
+.productImageContainer {
+  overflow: hidden;
+}
+
+.productImage {
+  width: 100%;
+  transition: transform 0.3s ease; 
+}
+
+.productImage:hover {
+  transform: scale(1.7);
+}
